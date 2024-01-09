@@ -315,7 +315,10 @@ body.light .name-head{
 .content-text{
     border: 2px solid var(--text-light);
     padding:1.2vw;
-    background-color: var(--bg-main);
+    /*background-color: var(--bg-main);*/
+    background-image: radial-gradient(circle at var(--mousex) var(--mousey), transparent 0%, var(--bg-main) 50%);
+    background-attachment: fixed;
+    background-position: 0 0;
     box-shadow: -8px -8px var(--content-shadow);
     color: var(--text-med);
     font-size: max(24px, 1.1vw);
